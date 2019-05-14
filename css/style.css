@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+        padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+p {}
+
+.padding {
+    padding: 70px 0;
+}
+
+section {
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+.btn{
+    font-weight: 700;
+}
+/*================Basic Css End=========================*/
+
+/*======================Navigation Section Start==========================*/
+.menu_fix {
+    position: fixed;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all linear .4s;
+    box-shadow: -4px 2px 11px -5px #000;
+}
+.navbar {
+    background: #f1f1f1;
+    transition: all linear .4s;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar ul{
+    display: flex;
+    float: right;
+}
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.nav_section {
+    background: #f7f7f7;
+}
+/*======================Navigation Section End==========================*/
+/*======================Contant Section Start==========================*/
+#main_content{
+    background: #f1f1f1;
+}
+#main_content h2{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    padding-bottom: 50px;
+}
+.tempate_border{
+    border-left: 1px solid #f1f1f1;
+    border-right: 1px solid #f1f1f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #fff;
+}
+#main_content p i{
+    padding-right: 10px;
+}
+#main_content p{
+    font-weight:400;
+
+    color: #333;
+    font-size: 14px;
+}
+.job_details h3{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #222;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+.job_details ol{
+    list-style-type:decimal;
+    padding-left: 15px;
+    font-weight:400;
+
+    color: #333;
+    font-size: 14px;
+}
+.job_details ol li{
+    padding-bottom: 10px;
+}
+.post_ditails p{
+    padding-bottom: 10px;
+}
+.post_ditails h1{
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.post_ditails h3{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+    padding: 30px 0;
+}
+.apply_btn{
+    margin-top: 50px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    background: rgb(249, 191, 59);
+    border-radius: 25px;
+    border: none;
+    padding: 0 20px;
+    line-height: 50px;
+    color: #fff;
+    position: relative;
+    transition: all linear .4s;
+    z-index: 1;
+}
+.apply_btn:focus{
+    outline: none;
+}
+.apply_btn:before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+    
+    background: rgb(252, 204, 97);
+    transition: all linear .4s;
+    border-radius: 25px;
+    z-index: -1;
+}
+.apply_btn:hover:before{
+    height: 100%;
+    top:0;
+    left: 0;
+    width: 100%;
+    
+}
+.linkdin_apply:before{
+     background: #0582c6;
+    border-radius: 3px;
+}
+.linkdin_apply{
+    margin-left: 30px;
+      background: #0073b1;
+    border-radius: 6px;
+}
+.linkdin_apply:hover:before{
+    
+}
+/*======================Contant Section End==========================*/
+
+/*================footer css Start=============================*/
+
+footer{
+    background: #f1f1f1;
+    color:#222;
+    text-align: center;
+    z-index: 1;
+}
+.footer_bottom p{
+    line-height: 100px;
+        font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_bottom p span{
+    font-weight: 800;
+    font-size: 18px;
+}
+/*================footer css End=============================*/
+/*================scroll_top css Start=============================*/
+.scroll_top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    /*    display: none;*/
+    z-index: 99;
+
+    cursor: pointer;
+
+}
+
+.scroll_top i {
+    height: 40px;
+    width: 40px;
+    background: rgba(0, 0, 0, .9);
+    color: #f1f1f1;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    transition: all linear .4s;
+}
+.scroll_top i:hover{
+    padding-top:5px;
+}
+/*================scroll_top css End=============================*/
+/*================scroll_top css End=============================*/

@@ -1,0 +1,37 @@
+@media (min-width:1200px) {}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:768px) and (max-width:991px) {
+    /*================Bannar- Navigation Start====================================*/
+ 
+    }
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+
+    .padding {
+        padding: 50px 0 !important;
+    }
+
+    /*================Footer Start====================================*/
+
+    /*================Footer End====================================*/
+}
+
+@media (min-width:320px) and (max-width:575px) {
+    .padding {
+        padding: 40px 0 !important;
+    }
+    .tempate_border{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .navbar ul li .btn{
+        font-size: 13px;
+    }
+    /*================Footer start====================================*/
+
+    /*================Footer End====================================*/
+}
